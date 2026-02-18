@@ -10683,7 +10683,7 @@ heding animation  end
   position: relative;
   background-color: var(--title-color);
   background-position: left top;
-  padding: 152px 0;
+  padding: 90px 0;
   overflow: hidden;
   text-align: center;
   background-repeat: repeat-x;
@@ -41513,3 +41513,16 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.custom-text{
+  font-weight: 500;
+    font-size: 16px;
+    color: var(--body-color);
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+    
+.header-th-social a:hover{
+  color: #fff !important;
+}
