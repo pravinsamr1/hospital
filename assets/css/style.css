@@ -8854,7 +8854,7 @@ ol.wp-block-rss {
   width: 19%;
   height: 92px;
   z-index: -1;
-  background-color: var(--theme-color);
+  /* background-color: var(--theme-color); */
   /* Hight Resoulation devices */
   /* Medium Large devices */
   /* Large devices */
