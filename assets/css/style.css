@@ -8336,7 +8336,7 @@ ol.wp-block-rss {
 
 .main-menu ul.sub-menu li.menu-item-has-children > a:after {
   content: "\f105";
-  float: right;
+  /* float: right; */
   top: 1px;
 }
 
@@ -8353,7 +8353,7 @@ ol.wp-block-rss {
 }
 
 .main-menu ul.sub-menu li a:before {
-  content: "\f2db";
+  content: "\f5d7";
   position: absolute;
   top: 6px;
   left: 10px;
@@ -8922,7 +8922,7 @@ ol.wp-block-rss {
 
 .header-layout1 .main-menu {
   position: relative;
-  padding-left: 116px;
+  padding-left: 86px;
 }
 
 @media (min-width: 1930px) {
@@ -12515,7 +12515,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 }
 
 .hero-title {
-  font-size: 84px;
+  font-size: 70px;
   color: var(--white-color);
   line-height: 1.1;
   margin-bottom: 25px;
@@ -12530,7 +12530,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 
 @media (max-width: 1500px) {
   .hero-title {
-    font-size: 74px;
+    font-size: 70px;
   }
 }
 
