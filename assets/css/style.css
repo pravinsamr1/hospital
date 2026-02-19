@@ -41644,3 +41644,39 @@ span.select2-selection.select2-selection--single:focus {
 .recent-post-wrap-font h4 a{
   font-size: 15px;
 }
+
+.about-space{
+  padding: 70px 0px 60px !important;
+}
+
+.service-padd{
+  padding: 70px 0px !important;
+}
+
+.gallery-padd{
+  padding: 70px 0px !important;
+}
+
+.why-padd{
+  padding: 70px 0px !important;
+}
+
+.testimonial-padd{
+  padding: 70px 0px !important;
+}
+
+.blog-padd{
+  padding: 70px 0px !important;
+}
+
+.about-space-padd{
+  padding: 70px 0px 120px !important;
+}
+
+.about-space-another{
+  padding: 70px 0px 30px !important;
+}
+
+.faq-padd{
+  padding: 70px 0px !important;
+}
