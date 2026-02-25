@@ -33791,7 +33791,7 @@ span.select2-selection.select2-selection--single:focus {
 .story-box .box-title {
   font-family: var(--title-font);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 27px;
   line-height: 56px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -41699,7 +41699,9 @@ span.select2-selection.select2-selection--single:focus {
   justify-content: center;
   gap: 20px;
 }
-
+.benifits-padd{
+  padding: 70px 0px 20px !important;
+}
 
 @media (max-width: 767px) {
   .header-top{
