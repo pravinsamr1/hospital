@@ -41725,15 +41725,31 @@ span.select2-selection.select2-selection--single:focus {
   display: none;
 }
 .gallery-padd{
-  padding: 50px 0px !important;
+  padding: 50px 0px 30px !important;
 }
 .testimonial-padd{
-  padding: 50px 0px !important;
+  padding: 50px 0px 30px !important;
 }
 .why-padd{
   padding: 50px 0px 30px !important;
 }
 .sidebar-area{
   display: none;
+}
+.map-padd{
+  padding: 0px 0px 0px !important;
+}
+.social-media-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.service-padd{
+  padding: 50px 0px !important;
+}
+.blog-padd{
+  padding: 50px 0px 30px !important;
 }
 }
