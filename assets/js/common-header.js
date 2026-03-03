@@ -25,16 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
                             <li><a href="about2.html">Sports Injuries</a></li>
                         </ul> -->
                     </li>
-                    <li class="">
-                                        <a href="#">Services</a>
-                                        <!-- <ul class="sub-menu">
-                                            <li><a href="about.html">Posture Assessment</a></li>
-                                            <li><a href="about2.html">Breathing Retraining</a></li>
-                                            <li><a href="about2.html">Shoulder Dysfunction</a></li>
-                                            <li><a href="about2.html">Postural Imbalance</a></li>
-                                            <li><a href="about2.html">Sports Injuries</a></li>
-                                        </ul> -->
-                                    </li>
+                    <li>
+                        <a href="#">Certificates</a>
+                    </li>
                                     <li class="">
                                         <a href="gallery.html">Gallery</a>
                                     </li>
@@ -42,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                         <a href="faq.html">FAQ</a>
                                     </li>
                                     <li class="">
-                                        <a href="blog.html">Blog</a>
+                                        <a href="blog.html">Blogs</a>
                                     </li>
                     <li class="">
                         <a href="contact.html">Contact us</a>
@@ -116,16 +109,9 @@ document.addEventListener("DOMContentLoaded", function() {
                                             <li><a href="about2.html">Sports Injuries</a></li>
                                         </ul> -->
                                     </li>
-                                    <li class="">
-                                        <a href="#">Services</a>
-                                        <!-- <ul class="sub-menu">
-                                            <li><a href="about.html">Posture Assessment</a></li>
-                                            <li><a href="about2.html">Breathing Retraining</a></li>
-                                            <li><a href="about2.html">Shoulder Dysfunction</a></li>
-                                            <li><a href="about2.html">Postural Imbalance</a></li>
-                                            <li><a href="about2.html">Sports Injuries</a></li>
-                                        </ul> -->
-                                    </li>
+                                    <li>
+                        <a href="certificates.html">Certificates</a>
+                    </li>
                                     <li class="">
                                         <a href="gallery.html">Gallery</a>
                                     </li>
@@ -133,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                         <a href="faq.html">FAQ</a>
                                     </li>
                                     <li class="">
-                                        <a href="blog.html">Blog</a>
+                                        <a href="blog.html">Blogs</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -153,4 +139,17 @@ document.addEventListener("DOMContentLoaded", function() {
     `;
 
     document.getElementById("header").innerHTML = header;
+
+
+    // MOBILE MENU TOGGLE FIX
+    setTimeout(() => {
+        const menuToggle = document.querySelectorAll(".th-menu-toggle");
+        const menuWrapper = document.querySelector(".th-menu-wrapper");
+
+        menuToggle.forEach(btn => {
+            btn.addEventListener("click", function () {
+                menuWrapper.classList.toggle("th-body-visible");
+            });
+        });
+    }, 200);
 });
