@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="th-mobile-menu">
                 <ul>
                     <li class="mega-menu-wrap">
-                        <a class="active" href="index.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="">
                         <a href="about.html">About Us</a>
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <nav class="main-menu d-none d-xl-inline-block">
                                 <ul>
                                     <li class=" mega-menu-wrap">
-                                        <a class="active" href="index.html">Home</a>
+                                        <a href="index.html">Home</a>
                                     </li>
                                     <li class="">
                                         <a href="about.html">About Us</a>
@@ -152,4 +152,18 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     }, 200);
+
+    const currentPage = window.location.pathname.split("/").pop();
+
+const navLinks = document.querySelectorAll(".main-menu a, .th-mobile-menu a");
+
+navLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    if (linkPage === currentPage) {
+        link.classList.add("active");
+    } else {
+        link.classList.remove("active");
+    }
+});
 });
