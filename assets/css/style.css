@@ -41766,3 +41766,10 @@ span.select2-selection.select2-selection--single:focus {
 }
 }
 
+.footer-backgroundd{
+    background-image: url("../my-img/footer.png") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100% !important;
+}

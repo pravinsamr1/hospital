@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const footer = `
     
-    <footer class="footer-wrapper footer-layout1 black-bg space-top padding-space">
+    <footer class="footer-wrapper footer-layout1 space-top padding-space footer-backgroundd">
         <div class="widget-area padding-footer">
             <div class="container">
                 <div class="row justify-content-between">
